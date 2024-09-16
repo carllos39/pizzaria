@@ -1,12 +1,50 @@
+*{
+    box-sizing: border-box;
+}
 nav ul li{
     list-style:none;
     display: inline;
     margin-right: 15px;  
 }
 
-header{
+header {
     text-align: center;
+    background-color: red;
+    color: beige;
+    border-radius: 4px;
 }
 a{
     text-decoration: none;
+    color: beige;
+}
+body{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img{
+    width: 100%;
+}
+.imagem{
+   display:flex;
+   justify-content: space-between;
+    
+ width:30% ;
+ 
+ 
+}
+table{
+    width: 80%;
+    margin: auto;
+    border: solid 1px;
+}
+table, th, td{
+    border: solid 1px
+    
+}
+
+footer{
+    text-align: center;
+    background-color: red;
+    color: beige;
+    border-radius: 4px;
 }
