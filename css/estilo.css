@@ -37,13 +37,14 @@ main{
 img{
     width:100%;
 }
-.imagem{
-
-display: flex;
-margin-right: 20px;
-padding: 0 25px 0 0;
- width:100%; 
+.um{
     
+    display: flex;
+    justify-content: space-between;
+}
+article{
+    padding:15px;
+    border-radius: 4px;
 }
 table{
     width: 80%;
@@ -64,4 +65,9 @@ footer{
     border-radius: 4px;
     width: 100%;
     bottom: 0;
+}
+.localizacao{
+    width: 80%;
+    margin: auto;
+    padding: 15px;
 }
