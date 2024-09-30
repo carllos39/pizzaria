@@ -16,6 +16,7 @@ h2,h3{
 
 header {
     display: flex;
+    justify-content: space-between;
     text-align: center;
     background-color: red;
     color: beige;
@@ -23,10 +24,15 @@ header {
     padding: 05px 20px 5px 20px;
     position: sticky;
     top: 0;
+    height:12vh;
 }
 .menu{
     list-style: none;
     display: none;
+    }
+    nav h2 a:hover,nav a :focus,.menu a:focus,.menu a:hover{
+        background-color:green;
+        border-radius: 8px;
     }
     
     .menu a{
@@ -101,9 +107,16 @@ footer{
     margin: auto;
     padding: 15px;
 }
+.limitador{
+    width: 95vw;
+    margin: auto;
+}
 @media (min-width:570px) {
     nav h2 {
         display: none;
+    }
+    .menu a{
+        color: beige;
     }
 
     .menu {
